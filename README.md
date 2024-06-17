@@ -83,7 +83,7 @@
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/52e0d196-df5c-424d-979e-9a0a82711af8)
 
 
-
+<br>
 
 * 메인 화면 (콘서트 목록 화면)
   
@@ -91,7 +91,7 @@
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/8997cf5f-389d-4229-81ca-d74336960990)
 
 
-
+<br>
 
 * 티켓 예매 화면
   
@@ -99,14 +99,14 @@
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/5b390399-0358-4f67-9ae3-af5219c3efef)
 
 
-
+<br>
 
 * 장바구니 화면
   
   
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/9977d329-61b2-48fe-ac9e-5dec762d6dc9)
 
-
+<br>
 
 
 * 배송정보 입력 화면
@@ -115,14 +115,14 @@
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/25ca4907-1cd0-4872-97e2-cd3aca449fe2)
 
 
-
+<br>
 
 * 최종 결제 화면
   
   
   ![image](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/a3825f4b-05ff-4252-af12-0649f889ec8d)
 
-
+<br>
 
 
 * 예매 감사인사 화면
