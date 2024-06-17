@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FBF5F5">
+
+    <!-- 상단 : CalendarView -->
+    <LinearLayout
+        android:background="#FBF5F5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 하단 : 예매 수량 입력칸과 장바구니 담기 버튼 -->
+    <LinearLayout
+        android:background="#FBF5F5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/ticketQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="예매 수량을 입력하세요"
+            android:inputType="number"
+            android:background="@drawable/edittext_border"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/addToCartButton"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:textSize="16sp"
+            android:text="장바구니에 담기"
+            android:layout_marginTop="35dp"
+            android:elevation="4dp"/>
+    </LinearLayout>
+</LinearLayout>

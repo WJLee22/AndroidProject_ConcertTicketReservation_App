@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="horizontal"
+        android:background="#FFFFFF"
+        android:elevation="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <TableLayout
+                android:id="@+id/cart_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="8dp"></TableLayout>
+
+        </ScrollView>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/consumerInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="배송 정보"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consumerNametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="이름: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/telNumtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="전화번호: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/addresstv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="주소: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:textColor="#B62015"
+            android:id="@+id/shippingFeetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="※배송비: "
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/consumeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/button_background"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="결제하기"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cartInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:text="총 가격: 0원"
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/feeNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="※배송비는 금액과 상관없이 3000원 부과됩니다."
+        android:textColor="#B00020"
+        android:textSize="14sp"
+        android:background="#FFFFFF"
+        android:elevation="2dp" />
+
+</LinearLayout>
