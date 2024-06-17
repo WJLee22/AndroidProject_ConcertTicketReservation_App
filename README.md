@@ -141,7 +141,8 @@
 
 #### 2.5 발표영상
 
-Youtube 동영상
+
+Youtube 동영상 (아래 이미지 클릭시 유튜브 링크로 이동합니다.)
 
 
  [![제목](https://github.com/000jun26/MiniProject_TicketReservationApp/assets/146986774/cb69132b-72e1-4819-ba0a-39ad1f402552)](https://www.youtube.com/watch?v=IZ48rEiPtSY)
