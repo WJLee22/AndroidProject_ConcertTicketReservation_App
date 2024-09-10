@@ -1,7 +1,7 @@
 # < Quick & Advanced 콘서트 티켓 예매 어플리케이션 >
 
 > by 안드로이드 스튜디오 & Google Cloud API (Google Map API)<br>
-> 2071449_이원준_안드로이드프로그래밍 미니 프로젝트 
+> 
 
 <br>
 
