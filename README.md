@@ -1,7 +1,7 @@
 # < Quick & Advanced 콘서트 티켓 예매 어플리케이션 >
 
 > by 안드로이드 스튜디오 & Google Cloud API (Google Map API)<br>
-> 
+
 
 <br>
 
@@ -140,7 +140,7 @@
 <br>
 
 
-#### 2.5 발표영상
+#### 2.5 시연영상
 
 
 Youtube 동영상 (아래 이미지 클릭시 유튜브 링크로 이동합니다.)
